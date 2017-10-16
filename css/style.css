@@ -1,0 +1,174 @@
+body {
+    background: url(../img/punto.png);
+}
+.tm_about_store_widget .textwidget {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 1.545;
+    font-family: Roboto;
+    color: #fff;
+}
+.tm_about_store_widget .h4 {
+    color: #fff;
+}
+.main-navigation {
+    background-color: #7e43ad;
+}
+.main-navigation ul.menu > li:hover > a, .main-navigation ul.menu > li.menu-hover > a, .main-navigation ul.menu > li.current_page_item > a, .main-navigation ul.menu > li.current_page_ancestor > a:hover {
+    color: #02fffa;
+}
+.main-navigation::after, .main-navigation::before {
+    background-color: #7e43ad;
+}
+.site-header.centered .site-logo__link img {
+    margin-top: 0px;
+}
+.site-header.centered .site-branding {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.site-header.centered .top-panel__wrap {
+    padding-top: 15px;
+    margin-bottom: 5px;
+}
+.product .price .amount, .woocommerce div.product p.price {
+    font-weight: 700;
+    color: #7e43ad;
+}
+.swiper-button-next:hover {
+    color: #ffffff;
+    background: #7e43ad;
+}
+.swiper-button-prev:hover {
+    color: #ffffff;
+    background: #7e43ad;
+}
+.center{
+    text-align: center;
+}
+.follow-btn{
+    background: #0bb4b7;
+    color: #fff;
+    padding: 16px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.facebook-btn{
+    background: #7e43ad;
+    color: #fff;
+    padding: 16px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.instagram-btn{
+    background: #37165d;
+    color: #fff;
+    padding: 16px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.site-footer {
+    background-color: transparent;
+    border-color: transparent;
+}
+.morado{
+    color:#7e43ad;
+}
+.rosado{
+    color:#fa3378;
+}
+.azul{
+    color:#02fffa;
+}
+.naranaja{
+    color: #fc7106;
+}
+.tm_products_carousel_widget .widget-title:before, .single-product .related.products h2:before {
+    background-color:transparent;
+}
+.widget___tm_custom_menu_widget .widget-title {
+    text-transform: none;
+    font-size: 40px!important;;
+}
+ol li::before {
+    color: transparent;
+}
+.title-2-slider{
+    color: #6a7382;
+    font-size: 30px;
+    font-weight: bold;
+}
+.title-1-slider{
+    font-size: 120px;
+}
+.btn{
+    border-radius: 0px;
+}
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 20px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+.fz20{
+    font-size: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1200px){
+    .site-header.centered .header-container {
+        margin-top: -105px;
+        padding-bottom: 0px;
+    }
+}
+
+
+@media (min-width: 1200px){
+    .tm_about_store_widget_bg {
+        padding-left: 600px;
+    }
+}
+
+
+@font-face {
+    font-family: "altoys";
+    src: url(../fonts/altoys/Altoysitalic.otf) format("truetype");
+}
+.altoys{
+    font-family: 'altoys', sans-serif;
+}
+
+@font-face {
+    font-family: "BudidayaItalic";
+    src: url(../fonts/budidaya/BudidayaItalic.otf) format("truetype");
+}
+.BudidayaItalic{
+    font-family: 'BudidayaItalic', sans-serif;
+}
+
+@font-face {
+    font-family: "BudidayaRegular";
+    src: url(../fonts/budidaya/BudidayaRegular.otf) format("truetype");
+}
+.BudidayaRegular{
+    font-family: 'BudidayaRegular', sans-serif;
+}
